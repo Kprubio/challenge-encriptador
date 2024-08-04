@@ -1,4 +1,18 @@
 
-.contenido{
-    display: flex;
+:root{
+    --color-primario: #F3F5FC ;
+    --fuente-inter: "Inter" , sans-serif ;
+
+}
+
+body{
+    background-color: var(--color-primario);
+    font-family: var(--fuente-inter);
+}
+
+#contenido__textoAModificar{
+    background-color: transparent;
+    border: none;
+    resize: none;
+    
 }
