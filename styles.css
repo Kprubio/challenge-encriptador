@@ -1,13 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
 
 :root{
     --color-primario: #F3F5FC ;
     --color-secundario: #0A3871 ;
     --fuente-inter: "Inter" , sans-serif ;
-
 }
 
 body{
-    background-color: var(--color-primario);
+    background-color: var(--color-primario) ;
     font-family: var(--fuente-inter);
 }
 
@@ -18,6 +21,18 @@ body{
 }
 
 #contenido__textoAModificar::placeholder {
+    font-family: var(--fuente-inter);
+    color: var(--color-secundario);
+    font-size: 2rem;
+}
+
+#contenido__textoModificado{
+    background-color: transparent;
+    border: none;
+    resize: none;
+}
+
+#contenido__textoModificado::placeholder {
     font-family: var(--fuente-inter);
     color: var(--color-secundario);
     font-size: 2rem;
