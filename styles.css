@@ -1,6 +1,7 @@
 
 :root{
     --color-primario: #F3F5FC ;
+    --color-secundario: #0A3871 ;
     --fuente-inter: "Inter" , sans-serif ;
 
 }
@@ -14,5 +15,10 @@ body{
     background-color: transparent;
     border: none;
     resize: none;
-    
+}
+
+#contenido__textoAModificar::placeholder {
+    font-family: var(--fuente-inter);
+    color: var(--color-secundario);
+    font-size: 2rem;
 }
